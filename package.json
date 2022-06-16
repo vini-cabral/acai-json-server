@@ -1,0 +1,26 @@
+{
+  "name": "acai-backend-json",
+  "version": "1.0.0",
+  "description": "Basic json file server",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vini-cabral/acai-backend-json.git"
+  },
+  "keywords": [
+    "json server",
+    "api"
+  ],
+  "author": "Vinícius Cabral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vini-cabral/acai-backend-json/issues"
+  },
+  "homepage": "https://github.com/vini-cabral/acai-backend-json#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
