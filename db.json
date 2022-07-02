@@ -2,22 +2,26 @@
   "items": [
     {
       "title": "Tamanho",
-      "maxValue": 1,
+      "maxSelect": 1,
+      "totalSelect": 0,
+      "partialValue": 0,
       "subItems": [
-        { "desc": "300 ml", "nameTag": "select-size", "idTag": "size-300", "price": 13 },
-        { "desc": "500 ml", "nameTag": "select-size", "idTag": "size-500", "price": 18 }
+        { "desc": "300 ml", "nameTag": "select-size", "idTag": "size-300", "price": 13, "checked": true },
+        { "desc": "500 ml", "nameTag": "select-size", "idTag": "size-500", "price": 18, "checked": false }
       ]
     },
     {
       "title": "Opções adicionais",
-      "maxValue": 3,
+      "maxSelect": 3,
+      "totalSelect": 0,
+      "partialValue": 0,
       "subItems": [
-        { "desc": "Banana", "nameTag": "banana", "idTag": "banana", "price": 1.5 },
-        { "desc": "Granola", "nameTag": "granola", "idTag": "granola", "price": 1.0 },
-        { "desc": "Morango", "nameTag": "morango", "idTag": "morango", "price": 2 },
-        { "desc": "Leite em pó", "nameTag": "leite-em-po", "idTag": "leite-em-po", "price": 2.5 },
-        { "desc": "Coco", "nameTag": "coco", "idTag": "coco", "price": 1.5 },
-        { "desc": "Castanha de caju", "nameTag": "castanha-de-caju", "idTag": "castanha-de-caju", "price": 2.5 }
+        { "desc": "Banana", "nameTag": "banana", "idTag": "banana", "price": 1.5, "checked": false },
+        { "desc": "Granola", "nameTag": "granola", "idTag": "granola", "price": 1.0, "checked": false },
+        { "desc": "Morango", "nameTag": "morango", "idTag": "morango", "price": 2, "checked": false },
+        { "desc": "Leite em pó", "nameTag": "leite-em-po", "idTag": "leite-em-po", "price": 2.5, "checked": false },
+        { "desc": "Coco", "nameTag": "coco", "idTag": "coco", "price": 1.5, "checked": false },
+        { "desc": "Castanha de caju", "nameTag": "castanha-de-caju", "idTag": "castanha-de-caju", "price": 2.5, "checked": false }
       ]
     }
   ]
